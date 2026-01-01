@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: aqkanji2koe
+Version: 0.1.0
+Summary: Python wrapper for AquesTalk AqKanji2Koe library
+Home-page: https://github.com/yourusername/aqkanji2koe
+Author: Your Name
+Project-URL: Source, https://github.com/yourusername/aqkanji2koe
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
+
+# AqKanji2Koe Python 封装库
+
+用于 AquesTalk AqKanji2Koe 库（日语文本转音素转换器）的 Python 接口。
+
+## 快速开始
+
+```python
+from aqkanji2koe import AqKanji2Koe
+
+# 初始化转换器
+converter = AqKanji2Koe(dict_dir="D:\\aqk2k_win\\aq_dic")
+
+# 转换日文文本
+phonemes = converter.convert("こんにちは")
+print(phonemes)

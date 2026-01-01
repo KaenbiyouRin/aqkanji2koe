@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/aqkanji2koe/__init__.py
+src/aqkanji2koe/core.py
+src/aqkanji2koe.egg-info/PKG-INFO
+src/aqkanji2koe.egg-info/SOURCES.txt
+src/aqkanji2koe.egg-info/dependency_links.txt
+src/aqkanji2koe.egg-info/top_level.txt
